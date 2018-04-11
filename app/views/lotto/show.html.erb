@@ -1,0 +1,33 @@
+<body>
+
+
+<h1 id='number'>인생역전 번호!!!!!!</h1>
+    
+<h3>
+로또 번호: <img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @draw_numbers.at(0)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @draw_numbers.at(1)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @draw_numbers.at(2)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @draw_numbers.at(3)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @draw_numbers.at(4)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @draw_numbers.at(5)%>.png">
++ 보너스 번호 : <img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @bonus_number.at(0)%>.png">
+</h3>
+
+<div>
+내 번호 : <img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @lotto.at(0)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @lotto.at(1)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @lotto.at(2)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @lotto.at(3)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @lotto.at(4)%>.png">
+<img src ="http://www.nlotto.co.kr/img/common_new/ball_<%= @lotto.at(5)%>.png">
+</div>
+
+<div>
+
+<h3><%= @match_numbers %>이거 <%= @match_count %>개 맞췄네!!!!!!</h3>
+
+<h1><%= @result %></h1>
+
+</div>
+
+</body>

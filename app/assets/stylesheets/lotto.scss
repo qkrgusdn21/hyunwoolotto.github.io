@@ -1,0 +1,35 @@
+// Place all the styles related to the lotto controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body{
+    background-image : url(http://cfile21.uf.tistory.com/image/255584505735EF3C0D53E8);
+    background-repeat : no-repeat;
+    background-size : cover;
+    text-align: center;
+    font-size: 30px;
+    color : red;
+    
+}
+
+#number{
+    font-size : 80px;
+}
+
+a:link {
+    color: red;
+    text-align : center;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
